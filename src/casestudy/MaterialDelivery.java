@@ -6,6 +6,7 @@ public class MaterialDelivery extends ConstructionMaterial {
         super(contractorId, contractorName, materialQuantity, materialBalance);
     }
 
+    
     @Override
     public void receiveMaterial() {
         if (materialQuantity >= 1 && materialQuantity <= 10) {

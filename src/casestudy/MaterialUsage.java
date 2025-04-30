@@ -2,6 +2,7 @@ package casestudy;
 
 public class MaterialUsage extends ConstructionMaterial {
 
+    
     public MaterialUsage(String contractorId, String contractorName, double materialQuantity, double materialBalance) {
         super(contractorId, contractorName, materialQuantity, materialBalance);
     }

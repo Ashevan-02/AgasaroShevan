@@ -6,6 +6,7 @@ public class CostEstimation extends ConstructionMaterial {
         super(contractorId, contractorName, materialQuantity, materialBalance);
     }
 
+    
     @Override
     public void receiveMaterial() {
         // Not used here

@@ -7,6 +7,7 @@ public abstract class ConstructionMaterial {
     protected double materialQuantity; // in tons
     protected double materialBalance;  // in tons
 
+    
     // Constructor
     public ConstructionMaterial(String contractorId, String contractorName, double materialQuantity, double materialBalance) {
         this.contractorId = contractorId;
